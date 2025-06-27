@@ -9,7 +9,7 @@ st.set_page_config(page_title="Nuvem YouTube", layout="wide")
 st.title("📺 Nuvem de Palavras - Comentários Reais do YouTube")
 
 # CHAVE DA API
-API_KEY = "AIzaSyAziHDNILJUujR7rt-tZq4V1QUsX-iaZI8"  # SUA CHAVE REAL
+API_KEY = "AIzaSyAziHDNILJUujR7rt-tZq4V1QUsX-iaZI8" 
 
 # Função para buscar comentários reais do YouTube
 def buscar_comentarios(palavra_chave, max_videos=3):
